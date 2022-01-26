@@ -3,11 +3,10 @@ import { useNavigate } from "react-router";
 import "./pokemonCard.css";
 
 const PokemonCard = (props) => {
-  const navigate = useNavigate();
   return (
     <div
       className="_container"
-      onClick={() => navigate(`/pokemon/${props.name}`)}
+      onClick={() => }
     >
       <img
         src="https://i.ebayimg.com/images/g/foMAAOxyA4ZRU1C2/s-l300.jpg"

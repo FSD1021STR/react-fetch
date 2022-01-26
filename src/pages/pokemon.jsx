@@ -5,17 +5,8 @@ const PokemonPage = () => {
   const [pokemons, setPokemons] = useState([]);
 
   useEffect(() => {
-    const requestOptions = {
-      method: "GET",
-      headers: { "Content-Type": "application/json" },
-    };
-    
-    fetch(
-      "https://pokeapi.co/api/v2/pokemon/?limit=100&offset=200",
-      requestOptions
-    )
-      .then((response) => response.json())
-      .then((json) => setPokemons(json.results));
+      //url "https://pokeapi.co/api/v2/pokemon/?limit=100&offset=200"
+
   }, []);
 
   return (
@@ -29,7 +20,7 @@ const PokemonPage = () => {
         alignItems: "center",
       }}
     >
-      <h1> Pokemon List</h1>
+      <h1>Pokemon List</h1>
       <div
         style={{
           marginLeft: "20px",
