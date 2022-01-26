@@ -1,0 +1,13 @@
+._container {
+    background-color: gainsboro;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px gray;
+}
+img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
