@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router";
 import PokemonPage from "./pages/pokemon";
 import PokemonView from "./pages/pokemon.view";
+import PokemonTypes from "./pages/pokemon.types";
 
 const Navigator = () => {
   return (
@@ -10,6 +11,7 @@ const Navigator = () => {
       <Route path="/home" element={<PokemonPage />} />
       <Route path="/pokemon" element={<PokemonPage />} />
       <Route path="/pokemon/:name" element={<PokemonView />} />
+      <Route path="/types" element={<PokemonTypes />} />
     </Routes>
   );
 };

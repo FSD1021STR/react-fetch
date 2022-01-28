@@ -22,6 +22,9 @@ const NavBar = () => {
         <Link className="links" to="/pokemon">
           Pokemons
         </Link>
+        <Link className="links" to="/types">
+          Types
+        </Link>
       </div>
     </div>
   );
